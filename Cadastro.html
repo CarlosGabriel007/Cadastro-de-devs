@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>Cadastro de Desenvolvedores</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Desenvolvedores</h1>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" requeired>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="lado-aplicacao">Lado da Aplicação:</label>
+            <select id="lado-aplicacao" name="lado-aplicacao">
+                <option value="front-end">front-end</option>
+                <option value="back-end">Back-end</option>
+                <option value="full-stack">full-stack</option>
+            </select>
+
+            <label for="tecnologias">Tecnologias:</label>
+            <div id="tecnologias">
+                <input type="checkbox" id="html" name="tecnologia" value="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="tecnologia" value="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="javascript" name="tecnologia" value="javascript">
+                <label for="javascript">JavaScript</label>
+
+                <input type="checkbox" id="flutter" name="tecnologia" value="flutter">
+                <label for="flutter">Flutter</label>
+
+                <input type="checkbox" id="csharp" name="tecnologia" value="csharp">
+                <label for="csharp">C#</label>
+
+                <input type="checkbox" id="python" name="tecnologia" value="python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" id="java" name="tecnologia" value="java">
+                <label for="java">Java</label>
+            </div>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+        <div class="profile-image">
+            <img src="https://www.phoenix.edu/content/dam/edu/blog/2023/02/Male-programmer-writing-code-in-modern-office-704x421.jpg"
+                alt="Avatar do usuário">
+            <img src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/profissionalti.jpg"
+                alt="Avatar do usuário">
+            <img src="https://blog.eseg.edu.br/wp-content/uploads/2020/06/original-6f96ee168ab0b419a98fea4f2dfc31fc-780x450.jpg"
+                alt="Avatar do usuário">
+            <div class="text-box">
+                <textarea name="tempo" id="experiencia" cols="30" rows="10"></textarea>
+                <p>Conte um pouco mais da sua experiência aqui</p>
+                <button id="Concluido-button">Concluido</button>
+            </div>
+        </div>
+        <form action="#" method="post">
+
+        </form>
+    </div>
+</body>
+
+</html>
